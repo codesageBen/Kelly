@@ -34,10 +34,22 @@
   * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  ==============s========================================== -->
   <style>
+    .box {
+      width: 100%;
+      height: 100vh;
+      background-image: url(xx.png);
+      background-size: 100% 100%;
+
+    }
+
     .opacity-4 {
-      opacity: 0.7 !important;
+      opacity: 0.7;
+    }
+
+    @media (min-width: 1024px) {
+      #header {}
     }
   </style>
 </head>
@@ -45,11 +57,12 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top opacity-4">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
+  <header id="header" class="fixed-top opacity-4" style=" padding: 2px;;">
+    <div class=" container-fluid d-flex justify-content-between align-items-center">
 
       <h1 class="logo"><a href="index.html"><span style="color: red;">Cis</span><span
-            style="color: blue;">net</span></a></h1>
+            style="color: blue;">net</span></a>
+      </h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -76,12 +89,13 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
 
 
-    </div>
-  </section><!-- End Hero -->
+  <div class="box">
+
+  </div>
+  <!-- End Hero -->
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="fixed-bottom">
@@ -94,8 +108,7 @@
     </div>
   </footer><!-- End  Footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>

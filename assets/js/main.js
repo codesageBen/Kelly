@@ -1,10 +1,10 @@
 /**
-* Template Name: Kelly - v2.0.0
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-!(function($) {
+ * Template Name: Kelly - v2.0.0
+ * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+ * Author: BootstrapMade.com
+ * License: https://bootstrapmade.com/license/
+ */
+/*!(function($) {
   "use strict";
 
   // Preloader
@@ -156,7 +156,7 @@
   });
 
   // Portfolio details carousel
-  $(".portfolio-details-carousel").owlCarousel({
+  /**$(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
@@ -174,4 +174,4 @@
     aos_init();
   });
 
-})(jQuery);
+})(jQuery);**/
